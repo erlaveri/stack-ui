@@ -1,5 +1,30 @@
+@import "~normalize.css";
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+
+.app-content {
+  flex-grow: 1;
+}
+
+.app-footer {
+  height: 50px;
+  border-top: 1px solid gray;
+}
+
+.app-width-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
